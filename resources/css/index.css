@@ -3,10 +3,33 @@ header {
   font-family: Verdana;
   font-size: 14px;
   font-weight: bold;
+  position: fixed;
+  align-items: center;
+  z-index: 1;
+  border-bottom: 1px solid black;
+  width: 100%;
+  Height: 80px;
 }
-Nav span {
+Nav {
+  display: block;
+}
+nav span {
   display: inline-block;
+  padding: 20px 10px;
 }
-#logo {
+.logo {
+  flex-grow: 1;
+  align-items: center;
   color: MediumAquamarine;
+  padding-left: 30px;
+  flex-grow: 1;
+}
+.logo img {
+  margin-right: 12px;
+}
+header nav {
+  padding-right: 40px;
+}
+a {
+  color: black;
 }
