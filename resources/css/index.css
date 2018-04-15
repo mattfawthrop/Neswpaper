@@ -36,7 +36,6 @@ a {
 }
 div {
   display: block;
-  border: 1px solid white;
 }
 .content {
   display: flex;
@@ -45,9 +44,9 @@ div {
 }
 .column1 {
   display: flex;
-  width: 630px;
+  width: 662px;
   flex-direction: column;
-  padding-right: 32px;
+  margin-right: 32px;
 }
 .column2 {
   display: flex;
@@ -76,10 +75,12 @@ div {
   display: flex;
   justify-content: center;
   text-align: center;
+  flex-direction: column;
+  margin-top: 15px;
+
 }
 .cat-ceo {
   background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-1.png);
-  margin-top: 100px
 }
 .fall-cancelled {
   background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-2.png);
@@ -99,7 +100,73 @@ div {
 }
 .Narrative {
   margin-top: 16px;
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
 }
 .text-content {
   height: 250px;
+}
+.bite {
+  border-width: 1px 0px;
+  border-style: solid;
+  border-color: black;
+  background-color: WhiteSmoke;
+  font-family: Verdana;
+  font-size: 12px;
+  color: DimGray;
+}
+h2 {
+  font-family: Georgia;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+h3 {
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 41px;
+}
+.news-bites .bite {
+  display: block;
+  padding: 11px 20px;
+  text-al
+}
+footer {
+  height: 325px;
+  background-color: MediumAquamarine;
+  margin: auto;
+  font-family: Verdana;
+  font-size: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  margin-top: 75px;
+}
+footer .mytimes {
+  display: inline-block;
+  font-family: Georgia;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  padding-right: 25px;
+  border-right: 2px solid white;
+}
+.copyright {
+  display: block;
+}
+html{
+    margin-top:0;
+    padding-top:0;
+}
+body{
+    margin-top:0;
+    padding-top:0;
+}
+footer nav {
+  display: inline-block;
+  padding-left: 25px;
 }
